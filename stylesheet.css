@@ -1,0 +1,96 @@
+<style>
+h1 {
+font-family: monospace;
+font-style: oblique;
+font-size: 48px;
+font-stretch: condensed;
+text-shadow: 3px 3px 1.5px #000;
+color: #ffffb5;
+text-align: center; 
+position: relative;
+padding-top: 30px;
+margin-bottom: -180px;
+margin-top: 10px;
+}
+h3 {
+font-family: monospace;
+text-align: center;
+color: #663a82;
+text-shadow: 1px 1px 0.2px #fff;
+margin: 190px;
+margin-bottom: -150px;
+padding-bottom: 50px;
+}
+#body{
+background-size: 100%;
+font-family: monospace;
+text-align: center;
+height: 400px;
+width: 700px;
+}
+#restart{
+background-color: #ff9999;
+border-radius: 50px;
+font-family: monospace;
+font-size: 25px;
+float: left;
+margin: -100px 300px 105px 130px;
+}
+#resetScore{
+background-color: #ff6666;
+border-radius: 50px;
+font-family: monospace;
+font-size: 25px;
+float: right;
+margin: -100px 125px 100px 200px;
+}
+p{
+font-size: 20px;
+color: gray;
+font-family: monospace;
+text-shadow: 1px 1px 1.5px #000;
+margin-left: -66px;
+}
+#game{
+margin: 120px;
+padding: 50px 120px 60px 120px;
+text-align: justify;
+border-style: solid;
+border-radius: 30px;
+background-color: yellow;
+background-image: url("https://cdn.pixabay.com/photo/2017/08/09/13/49/cartoon-2614617_1280.jpg");
+background-size: 70%;
+background-position: center
+width: 700px;
+height: 450px;
+position: static;
+}
+#player{
+width: 80px;
+height: 96px;
+background-image: url("https://www.freeiconspng.com/uploads/potato-png-clipart-cartoon-13.png");
+background-size: 100%;
+position: relative;
+top: 254px;
+animation:;
+}
+@keyframes jump{
+0%{top:150px;}
+50%{top:75px;}
+100%{top:150px;}
+}
+#obstacle{
+width: 70px;
+height: 96px;
+background-image: url("https://i.pinimg.com/originals/b3/45/8f/b3458f0da769232136d98a9fb946ac78.png");
+background-size: 100%;
+position: relative;
+top: 145px;
+left:640px;
+animation: none;
+}
+@keyframes block{
+0%{left:875px;}
+100%{left:-105px;}
+}
+</style>
